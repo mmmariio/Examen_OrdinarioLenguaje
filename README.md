@@ -71,3 +71,6 @@ Usar la barra de navegación para moverse entre las diferentes secciones.
 Sumar poderes:
 
 Ingresar valores en los campos de "Suma de poderes" y presionar el botón para ver el resultado.
+
+
+Aviso: El enrutamiento de las imagenetes en los htmls index y formularios puede que den fallos, ya que al subirse al github, no se ha subido dentro de una carpeta img, por lo que en el codigo se debera cambiar el enrutamiento de las imagenes, o encarpetar las imagenes en una carpeta llamada img

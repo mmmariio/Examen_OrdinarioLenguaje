@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web Dragon Ball</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url('/img/fcb35fc65a3188f2ee006e57a4183e92.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .title-container {
+            text-align: center;
+            position: relative;
+        }
+
+        .title-container img {
+            width: 400px; 
+        }
+
+        .title-container h1 {
+            margin: 0;
+            position: absolute;
+            width: 100%;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 0;
+            color: #2772c9;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            background-color: #333;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: #333;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .column {
+            width: 45%;
+            background-color: rgb(253, 111, 28);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: rgb(253, 111, 28);
+        }
+
+        .sum-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            width: 50%;
+        }
+
+        .sum-container input {
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 80%;
+        }
+
+        .sum-container button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: rgb(253, 111, 28);
+            color: white;
+            cursor: pointer;
+        }
+
+        .sum-container button:hover {
+            background-color:#2772c9;
+        }
+
+        footer {
+            text-align: center;
+            padding: 5px;
+            background-color: #2772c9;
+            color: white;
+            position:static;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="title-container">
+            <h1></h1>
+            <img src="/img/450_1000.png" alt="Dragon Ball Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="https://es.dragon-ball-official.com/">Web Oficial</a></li>
+                <li><a href="https://www.crunchyroll.com/es-es/premium?utm_source=google&utm_medium=paid_cr&utm_campaign=CR-Paid_Google_Web_Conversion_Europe_(non-UK-IE)_ES_ALL_Trademark_SVOD&utm_term=crunchyroll&referrer=google_paid_cr_CR-Paid_Google_Web_Conversion_Europe_(non-UK-IE)_ES_ALL_Trademark_SVOD&gad_source=1&gclid=EAIaIQobChMIg_aygI_ThgMVaahoCR2XpAaUEAAYASAAEgJJtfD_BwE">Donde ver</a></li>
+                <li><a href="/Formulario.html">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="column">
+            <h1>Historia</h1>
+            <br>
+            <h3>Dragon Ball </h3>
+            <p>Goku es un extraño y alegre niño que pasa sus días cazando y comiendo hasta que un día conoce a Bulma, una chica muy linda, inteligente y que solo piensa en chicos. Bulma está buscando las Dragon Balls, unas esferas mágicas que se dice que si se reúnen las siete, se te concederá cualquier deseo, ¡y Goku tiene una que le dejó su abuelo como recuerdo! Esto será el inicio de una gran aventura.</p>
+            <br><br><br>
+            <h3>Dragon Ball Z</h3>
+            <p>Villanos terroríficamente malvados de los rincones más oscuros del espacio y el tiempo se enfrentan con la Tierra, y Goku, el guerrero más fuerte del planeta, es todo lo que se interpone entre la humanidad y la extinción. Acompañado en la batalla por los valientes Guerreros Z, Goku viaja a reinos lejanos y peligrosos en busca de los poderes mágicos de las siete Esferas del Dragón..</p>
+            <br><br><br>
+            <h3>Dragon Ball Super</h3>
+            <p>El tiempo transcurre, desde aquella gran batalla entre Goku y Majin Boo... ¡¡Ahora, en un mundo que recuperó la paz, se aproxima una nueva batalla!! ¿¡Viene este nuevo enemigo desde el "Sexto universo"!? Una nueva y completa serie de "Dragon Ball", en donde "un después" es escrito, en un proyecto original de Akira Toriyama.</p>
+        </div>
+        <div class="column">
+            <h2>Serie animada</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Saga</th>
+                        <th>Episodios</th>
+                        <th>Año</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Saga de Pilaf</td>
+                        <td>13</td>
+                        <td>1986</td>
+                    </tr>
+                    <tr>
+                        <td>Saga del 21º Torneo de las Artes Marciales</td>
+                        <td>15</td>
+                        <td>1986-1987</td>
+                    </tr>
+                    <tr>
+                        <td>Saga del Ejército Red Ribbon</td>
+                        <td>29</td>
+                        <td>1987</td>
+                    </tr>
+                    <tr>
+                        <td>Saga de Uranai Baba</td>
+                        <td>31</td>
+                        <td>1987-1988</td>
+                    </tr>
+                    <tr>
+                        <td>Saga del 22º Torneo de las Artes Marciales</td>
+                        <td>33</td>
+                        <td>1988</td>
+                    </tr>
+                    <tr>
+                        <td>Saga de Piccolo Daimaoh</td>
+                        <td>27</td>
+                        <td>1988-1989</td>
+                    </tr>
+                    <tr>
+                        <td>Saga del 23º Torneo de las Artes Marciales</td>
+                        <td>31</td>
+                        <td>1989</td>
+                    </tr>
+                    <tr>
+                        <td>Saga de los Saiyajin</td>
+                        <td>35</td>
+                        <td>1989-1990</td>
+                    </tr>
+                    <tr>
+                        <td>Saga de Freezer</td>
+                        <td>53</td>
+                        <td>1990-1991</td>
+                    </tr>
+                    <tr>
+                        <td>Saga de Cell</td>
+                        <td>92</td>
+                        <td>1991-1993</td>
+                    </tr>
+                    <tr>
+                        <td>Saga de Majin Buu</td>
+                        <td>97</td>
+                        <td>1993-1996</td>
+                    </tr>
+                    <tr>
+                        <td>Saga de la Batalla de los Dioses</td>
+                        <td>14</td>
+                        <td>2015</td>
+                    </tr>
+                    <tr>
+                        <td>Saga de la Resurrección de Freezer</td>
+                        <td>13</td>
+                        <td>2015</td>
+                    </tr>
+                    <tr>
+                        <td>Saga del Torneo del Universo 6</td>
+                        <td>18</td>
+                        <td>2016</td>
+                    </tr>
+                    <tr>
+                        <td>Saga de Goku Black</td>
+                        <td>29</td>
+                        <td>2016-2017</td>
+                    </tr>
+                    <tr>
+                        <td>Saga de la Supervivencia Universal</td>
+                        <td>55</td>
+                        <td>2017-2018</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="sum-container">
+        <h1>Suma de poderes</h1>
+        <input type="number" id="poder1" placeholder="Ingrese el poder 1">
+        <input type="number" id="poder2" placeholder="Ingrese el poder 2">
+        <button onclick="sumarPoderes()">Sumar</button>
+        <script src="/script.js"></script>
+        <p id="resultado"></p>
+    </div>
+
+    <footer>
+        <p>© 2024 Mi Página Web</p>
+    </footer>
+
+
+</body>
+</html>
